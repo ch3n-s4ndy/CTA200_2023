@@ -1,0 +1,314 @@
+    1  /cita/local/bin/passwd
+    2  cita or cita-5G - cita-research
+    3  python3
+    4  module python
+    5  module load gcc//11.2.0
+    6  ssh huskey
+    7  module load python/3.10.2
+    8  python
+    9  module list
+   10  module avail
+   11  % ls -la
+   12  exit() % ls-la
+   13  /% ls -la
+   14  ssh lobster
+   15  whoami
+   16  echo $HOSTNAME
+   17  echo $USER
+   18  who
+   19  history
+   20  dir
+   21  dir | more
+   22  cd
+   23  /home/cta200
+   24  /mnt/scratch-lustre
+   25  dir
+   26  find -name '*auss*'
+   27  -help
+   28  mkdir/mnt/scratch-lustre/ychen$gauss2d
+   29  home
+   30  cd /home/cta200
+   31  pwd
+   32  ls -la
+   33  ls
+   34  find -name '*auss*'
+   35  pwd
+   36  find . -name '*auss*'
+   37  pwd
+   38  cd /mnt/scratch-lustre
+   39  pwd
+   40  cd
+   41  pwd
+   42  cd /mnt/scratch-lustre
+   43  pwd
+   44  whoami
+   45  pwd
+   46  cd ychen
+   47  pwd
+   48  ls -la
+   49  mkdir gauss2d
+   50  ls -la
+   51  pwd
+   52  cd gauss2d
+   53  ls -la
+   54  pwd
+   55  cp -av /home/cta200/Research/gauss2d /mnt/scratch-lustre/ychen/gauss2d
+   56  ls -la
+   57  pwd
+   58  less /mnt/scratch-lustre/ychen/gauss2d/gauss2d/gauss2d.cc
+   59  cat Makefile
+   60  cat /mnt/scratch-lustre/ychen/gauss2d/gauss2d/Makefile
+   61  :q
+   62  vim /mnt/scratch-lustre/ychen/gauss2d/gauss2d/plot.py
+   63  gedit /mnt/scratch-lustre/ychen/gauss2d/gauss2d/plot.py
+   64  gcc
+   65  g++ gauss2d.cc
+   66  g++ /mnt/scratch-lustre/ychen/gauss2d/gauss2d/gauss2d.cc
+   67  ls -lt
+   68  ./gauss2d > data.txt
+   69  pwd
+   70  ls
+   71  ./a.out 
+   72  ./a.out > data.txt
+   73  ls
+   74  vim data.txt
+   75  module load python/2.7.12
+   76  module load python
+   77  ./script.py
+   78  python script.py
+   79  module load python script.py
+   80  module load python
+   81  ./script.py
+   82  module load ./script.py
+   83  head -1 plot.py
+   84  python script.py
+   85  module list
+   86  ./plot.py data.txt
+   87  ls -la
+   88  pwd
+   89  cp /mnt/scratch-lustre/ychen/gauss2d/gauss2d/plot.py .
+   90  ls -la
+   91  ./plot.py data.txt
+   92  chmod u+x plot.py
+   93  ./plot/py data.txt
+   94  .plot.py data.txt
+   95  ./plot.py data.txt
+   96  pwd
+   97  cd /mnt/scratch-lustre/ychen/ 
+   98  git clone https://github.com/beniz/eigenmvn
+   99  ls
+  100  cd eigenmvn
+  101  g++ -I/usr/include -I/usr/include/eigen3 -g -std=c++11 test_eigenmvn.cc -o te
+  102  dir
+  103  module avail gcc
+  104  module load gcc
+  105  module list
+  106  /usr/include
+  107  head test_eigenmvn.cc
+  108  g++ -I/usr/include -I/usr/include/eigen3 -g std=c+11 test eigenmvn.cc -o te
+  109  head test_eigenmvn.cc
+  110  -I/usr/include
+  111  module list
+  112  gcc -I/usr/include
+  113  pwd
+  114  head README.md
+  115  cd /mnt/scratch-lustre/ychen/src
+  116  pwd
+  117  cd /mnt/scratch-lustre/ychen
+  118  pwd
+  119  ls -la
+  120  /mnt/scratch-lustre/ychen/src
+  121  cd src
+  122  pwd
+  123  mkdir src
+  124  cd src
+  125  /mnt/scratch-lustre/ychen/src
+  126  cd .
+  127  pwd
+  128  cd ..
+  129  pwd
+  130  cd src
+  131  pwd
+  132  cd /mnt/scratch-lustre
+  133  pwd
+  134  ls -la
+  135  cd ychen
+  136  pwd
+  137  ls -la
+  138  mkdir /mnt/scratch-lustre/ychen/assignment_1
+  139  pwd
+  140  cd assignment_1
+  141  pwd
+  142  cd /mnt/scratch-lustre/ychen
+  143  ls -la
+  144  rmdir assignment_1
+  145  ls -la
+  146  mkdir CTA200_2023
+  147  ls -la
+  148  cd CTA200_2023
+  149  pwd
+  150  mkdir assignment_1
+  151  ls -la
+  152  cat README.md
+  153  vi README.md
+  154  pwd
+  155  ls -la
+  156  find -name'*Hello_world*'
+  157  find -name '*Hello_world*'
+  158  pwd
+  159  find . -name Hello_world.c
+  160  find -name '*Hello_world.c*'
+  161  cd /mnt/scratch-lustre/murray
+  162  find -name '*Hello_world*'
+  163  ls -la
+  164  cd bin
+  165  ls -la
+  166  cd /mnt/scratch-lustre/murray
+  167  cd repos
+  168  ls -la
+  169  cd ..
+  170  pwd
+  171  cd scratch-2month
+  172  ls -la
+  173  cd ..
+  174  cd src
+  175  ls -la
+  176  cd ..
+  177  cd scratch-3month
+  178  ls -la
+  179  cd ..
+  180  cd eigenmvn
+  181  ls -la
+  182  cd /home/cta200/Research
+  183  ls -la
+  184  cd ..
+  185  ls -la
+  186  cd /home
+  187  ls -la
+  188  cd /cita/h/home-1/murray
+  189  ls -la
+  190  cp -av /cita/h/home-1/Hello_world.py /mnt/scratch-lustre/ychen/CTA200_2023/assignment_1
+  191  cp -av /cita./h/home-1/murray/Hello_world.py /mnt/scratch-lustre/ychen/CTA200_2023/assignment_1
+  192  cp ./cita/h/home-1/murray/Hello_world.py ./mnt/scratch_lustre/ychen/CTA200_2023/assignment_1
+  193  pwd
+  194  cd /cita/h/home_1/murray/Hello_world.py
+  195  cd Hello_world.py
+  196  find -name '*Hello_world.cc*'
+  197  pwd
+  198  ls -la
+  199  cd Hello_world.c
+  200  cp /cita/h/home-1/Hello_world.c /mnt/scratch-lustre/ychen/CTA200_2023/assignment_1
+  201  cp /cita/h/home-1/murray/Hello_world.c /mnt/scratch-lustre/ychen/CTA200_2023/assignment1
+  202  cp /cita/h/home-1/murray/Hello_world.py /mnt/scratch-lustre/ychen/CTA200_2023/assignment1
+  203  cd /mnt/scratch-lustre/ychen/CTA200_2023/assignment1
+  204  cd /mnt/scratch-lustre/ychen
+  205  ls -la
+  206  cd CTA200_2023
+  207  ls -la
+  208  rm assignment_1
+  209  rm assignment1
+  210  ls -la
+  211  cp /cita/h/home-1/murray/Hello_world.py /mnt/scratch-lustre/ychen/CTA200_2023/assignment_1
+  212  cd assignment_1
+  213  ls -la
+  214  cp /cita/h/home-1/murray/Hello_wolrd.c /mnt/scratch-lustre/ychen/CTA200_2023/assignment_1
+  215  cp /cita/h/home-1/murray/Hello_world.c /mnt/scratch-lustre/ychen/CTA200_2023/assignment_1
+  216  ls -la
+  217  mv Hello_world.c Hello_world_chen.c
+  218  mv Hello_world.py Hello_world_chen.py
+  219  ls -la
+  220  module list
+  221  module avail gcc
+  222  module load gcc
+  223  module list
+  224  cd /mnt/scratch-lustre/ychen/src
+  225  wget http://bitbucket.org/eigen/eigen/get/3.4.0.tar.gz
+  226  tar -zxf 3.4.0.tar.gz
+  227  pwd
+  228  wget https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.gz
+  229  tar -zxf 3.4.0.tar.gz
+  230  tar -zxf eigen-3.4.0.tar.gz
+  231  ls -la
+  232  cd eigen-eigen-07105f7124f9
+  233  cd eigen-3.4.0
+  234  less INSTALL
+  235  mkdir -p /mnt/scratch-lustre/ychen/opt
+  236  ls -la
+  237  cd eigen3
+  238  cd ..
+  239  pwd
+  240  cd ..
+  241  pwd
+  242  cd CTA200_2023/assignment_1
+  243  ls -la
+  244  cd/mnt/scratch-lustre/ychen
+  245  cd /mnt/scratch-lustre/ychen
+  246  cd eigenmvn
+  247  mkdir -p /mnt/scratch_lustre/ychen/opt/eigen3
+  248  g++ Hello_world_chen.c -o Hello_world.chen.x
+  249  cd CTA200_2023/assignment_1
+  250  cd CTA200_2023
+  251  cd ..
+  252  cd CTA200_2023/assignment_1
+  253  g++ Hello_world_chen.c -o Hello_world_chen.x
+  254  python Hello_world_chen.py
+  255  module list
+  256  ls -la
+  257  module load python
+  258  module list
+  259  python Hello_world_chen.py
+  260  gcc Hellp_world_chen.x
+  261  gcc Hello_world_chen.x
+  262  gcc Hello_world_chen.c
+  263  module list
+  264  gcc -v Hello_world_chen.x
+  265  ./Hello_world_chen.x
+  266  python Hello_world_chen.py
+  267  vi Hello_world_chen.py
+  268  vi Hello_world_chen.x
+  269  vi Hello_world_chen.py
+  270  python Hello_world_chen.py
+  271  vi Hello_world_chen.x
+  272  ./Hello_world_chen.x
+  273  vi Hello_world_chen.x
+  274  ./Hello_world_chen.x
+  275  ls -la
+  276  rm Hello_world_chen.x
+  277  g++ Hello_world_chen.c -o Hello_world_chen.x
+  278  ls -la
+  279  vi Hello_world_chen.c
+  280  g++ Hello_world_chen.c -o Hello_world_chen.x
+  281  gcc Hello_world_chen.x
+  282  ./Hello_world_chen.x
+  283  python Hello_world_chen.py
+  284  ./Hello_world_chen.x > output_c.txt
+  285  python Hello_world_chen.py > output_python.txt
+  286  ls -la
+  287  vi output_c.txt
+  288  vi output_python.txt
+  289  history
+  290  history > history.txt
+  291  ls -la
+  292  vi history.txt
+  293  history
+  294  /history > history.txt
+  295  history > history.txt
+  296  vi history
+  297  history
+  298  history > history.txt
+  299  ls -la
+  300  vi history.txt
+  301  rm history
+  302  ls -la
+  303  vi history.txt
+  304  ls -la
+  305  cd ..
+  306  ls -la
+  307  pwd
+  308  git init
+  309  ls -la
+  310  mv README.md /mnt/scratch-lustre/ychen/CTA200_2023/assignment_1
+  311  ls -la
+  312  cd assignment_1
+  313  ls -la
+  314  history > history.txt
